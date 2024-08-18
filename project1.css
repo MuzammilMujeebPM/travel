@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+}
+.main{
+    background-image: url(./images/aerial-beautiful-shot-seashore-with-hills-background-sunset.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+
+    min-height: 500px;
+    /*the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.navbar{
+    background-color: transparent;
+}
+.nav-item{
+    color: azure;
+}
+#head{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-size: 30px;
+}
+#aaa{
+    text-decoration: none;
+
+}
+
+.div01{
+    background-color: white;
+    width: 260px;
+    height: 430px;
+    border: 1px solid;
+    border-color: rgb(226, 227, 227);
+    
+}
+.cards{
+    display: flex;
+    padding: 10px;
+    margin-left: 190px;
+}
+.div01:hover{
+    box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.6);
+}
+#b1{
+    background-color: blue
+}
+#b1:hover{
+    background-color: darkblue;
+}
+#b2{
+    background-color: blue;
+}
+#b2:hover{
+    background-color: red;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.9);
+
+}
+
+/* try */
+
+.container3{
+    margin-top: 50px;
+    height: 400px;
+    width: 600px;
+    display: grid ;
+    grid-template-columns: auto auto auto;
+    
+    row-gap: 2px;
+    column-gap: 2px;
+    
+    
+}
+
+
+.d1{
+    background-image: url(https://i.pinimg.com/474x/0d/a1/04/0da1047768329dce6a3f8525655e7ee8.jpg);
+    border:  1px solid black;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}.d2{
+    background-image: url(https://i.pinimg.com/474x/38/38/4e/38384e8c81ad221a623db9bbaf3f1098.jpg);
+    border: solid black 1px;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.d3{
+    background-image: url(https://i.pinimg.com/736x/37/45/a5/3745a5c218be7e58332192ae7464b01f.jpg);
+    border: solid black 1px;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.d4{
+    background-image: url(https://i.pinimg.com/474x/0b/6f/55/0b6f55dd14d1088419395b898048596b.jpg);
+    border: solid black 1px;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+.d5{
+    background-image: url(https://i.pinimg.com/474x/b0/1e/eb/b01eebac8baf77999065c4587af75e98.jpg);
+    border: solid black 1px;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+.d6{
+    background-image: url(https://i.pinimg.com/474x/cb/d3/96/cbd3969511e7374e8e81521db8a5ac46.jpg);
+    border: solid black 1px;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+
+.box{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+}
+.div002{
+    opacity: 0;
+}
+.div002:hover{
+    opacity: 1;
+}
+#h6{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    color: red;
+}
+.div99{
+    display: flex;
+    margin-left: 170px;
+    gap: 80px;
+}
+.div88{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 400px;
+}
+#sell{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+}
+
+
+.star-rating {
+    font-size: 1rem;
+    color: #ddd;
+    
+}
+.star-rating .filled {
+    color: green;
+}
